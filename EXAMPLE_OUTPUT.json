@@ -1,0 +1,57 @@
+{
+  "claim": "Solar energy capacity increased significantly between 2023 and 2025.",
+  "verdict": "SUPPORTED",
+  "confidence": 82,
+  "explanation": "Multiple Wikipedia sources confirm that solar energy capacity expanded significantly from 2023 to 2025, growing from approximately 1.0 TW to 1.5 TW of installed capacity globally. Solar energy is identified as the fastest-growing renewable energy source, with rapid deployment driven by cost reduction, policy support, and climate commitments across major economies.",
+  "sources_analyzed": 3,
+  "evidence": [
+    {
+      "source": "https://en.wikipedia.org/wiki/Solar_energy",
+      "title": "Solar energy",
+      "verdict": "SUPPORTS",
+      "relevance": "direct",
+      "key_quote": "Solar energy capacity grew from 1.0 TW in 2023 to 1.5 TW in 2025, representing a 50% increase over two years",
+      "evidence": "The article documents rapid expansion of solar capacity, making it the fastest-growing energy source with installations across all continents"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/Renewable_energy",
+      "title": "Renewable energy",
+      "verdict": "SUPPORTS",
+      "relevance": "direct",
+      "key_quote": "Renewable energy sources, particularly solar and wind, saw accelerated growth from 2023-2025",
+      "evidence": "Details how solar accounts for the majority of new renewable capacity additions, with countries committing to solar expansion targets"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/Energy_production",
+      "title": "Energy production",
+      "verdict": "SUPPORTS",
+      "relevance": "indirect",
+      "key_quote": "Solar and wind collectively surpassed coal and nuclear in global energy production by 2025",
+      "evidence": "While not exclusively about solar, confirms the broader trend of renewable energy dominance including solar growth"
+    }
+  ],
+  "key_agreements": [
+    "Solar capacity grew from 1.0 TW to 1.5 TW (50% growth)",
+    "Solar is the fastest-growing energy source globally",
+    "Growth driven by cost reduction and policy support",
+    "Deployment accelerated in 2024-2025",
+    "Solar now provides meaningful electricity generation globally"
+  ],
+  "key_contradictions": [],
+  "evidence_matrix": {
+    "headers": ["Source", "Supports", "Contradicts", "Relevance"],
+    "rows": [
+      ["Solar energy (Wikipedia)", "✓", "", "Direct"],
+      ["Renewable energy (Wikipedia)", "✓", "", "Direct"],
+      ["Energy production (Wikipedia)", "✓", "", "Indirect"]
+    ]
+  },
+  "methodology": {
+    "scraper_used": "Bright Data Scraper Studio",
+    "collector_id": "c_mt3xi0201l20zg4hoi",
+    "data_sources": "Wikipedia articles on renewable energy topics",
+    "llm_model": "gpt-4-turbo",
+    "polling_attempts": 8,
+    "processing_time_seconds": 28
+  }
+}
